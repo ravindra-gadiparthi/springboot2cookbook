@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        # ========================================================
+        - id: imagesService
+          uri: lb://IMAGES
+          predicates:
+            - Path=/imagesService/**
+          filters:
+            - RewritePath=/imagesService/, /
+            - SaveSession
+        - id: app
+          uri: lb:ws://CHAT
+          predicates:
+            - Path=/app/**
+          filters:
+            - RewritePath=/app/chatMessage.new/(?<segment>.*), /app/chatMessage.new\{segment}
+            - SaveSession
+        - id: topic
+          uri: lb:ws://CHAT
+          predicates:
+            - Path=/topic/**
+          filters:
+            - SaveSession
+        - id: bookstore
+          uri: http://127.0.0.1:3000/
+          predicates:
+            - Method=GET
+          filters:
+            - SaveSession
+
+
+server:
+  port: 8200
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  trace:
+    http:
+      include: "*"
+      enabled: true
+  endpoint:
+    httptrace:
+      enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    org.springframework.cloud.stream: debug
+    org.springframework.cloud.gateway: trace
+

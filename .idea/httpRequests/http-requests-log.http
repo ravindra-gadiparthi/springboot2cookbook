@@ -1,0 +1,70 @@
+POST http://localhost:8080/api/images
+Accept: application/json
+Cache-Control: no-cache
+
+{"id":"1","name":"foo"}
+
+<> 2019-12-10T042749.415.json
+
+###
+
+POST http://localhost:8080/api/images
+Accept: application/json
+Cache-Control: no-cache
+
+{"id":"1","name":"foo"}
+
+<> 2019-12-10T042747.415.json
+
+###
+
+POST http://localhost:8080/api/images
+Accept: application/json
+Cache-Control: no-cache
+
+{"id":"1","name":"foo"}
+
+<> 2019-12-10T042332.415.json
+
+###
+
+POST http://localhost:8080/api/images
+Accept: application/json
+Cache-Control: no-cache
+
+{"id":"1","name":"foo"}
+
+<> 2019-12-10T042259.415.json
+
+###
+
+POST http://localhost:8080/api/images
+Accept: application/json
+Cache-Control: no-cache
+
+{"id":"1","name":"foo"}
+
+<> 2019-12-10T042257.415.json
+
+###
+
+POST http://localhost:8080/api/images
+Accept: */*
+Cache-Control: no-cache
+
+{"id":"1","name":"foo"}
+
+<> 2019-12-10T042235.415.json
+
+###
+
+POST http://localhost:8080/api/images
+Accept: */*
+Cache-Control: no-cache
+
+{"id":"1","name":"foo"}
+
+<> 2019-12-10T042043.500.json
+
+###
+

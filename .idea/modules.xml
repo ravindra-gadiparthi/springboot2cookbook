@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/learning-spring-boot2-chapter6-mq/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/learning-spring-boot2-chapter6-mq/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-spring-boot2-chapter7-eureka-server/learning-spring-boot2-chapter7-eureka-server.iml" filepath="$PROJECT_DIR$/learning-spring-boot2-chapter7-eureka-server/learning-spring-boot2-chapter7-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-spring-boot2-chapter8-comments-chat/learning-spring-boot2-chapter8-comments-chat.iml" filepath="$PROJECT_DIR$/learning-spring-boot2-chapter8-comments-chat/learning-spring-boot2-chapter8-comments-chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-spring-boot2-chapter9-secured-chatservice/learning-spring-boot2-chapter9-secured-chatservice.iml" filepath="$PROJECT_DIR$/learning-spring-boot2-chapter9-secured-chatservice/learning-spring-boot2-chapter9-secured-chatservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-spring-boot2-chapter9-secured-images/learning-spring-boot2-chapter9-secured-images.iml" filepath="$PROJECT_DIR$/learning-spring-boot2-chapter9-secured-images/learning-spring-boot2-chapter9-secured-images.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-spring-boot2-chater9-gateway/learning-spring-boot2-chater9-gateway.iml" filepath="$PROJECT_DIR$/learning-spring-boot2-chater9-gateway/learning-spring-boot2-chater9-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-spring-boot2-chapter6-mq/src/main/main.iml" filepath="$PROJECT_DIR$/learning-spring-boot2-chapter6-mq/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-example/spring-security-example.iml" filepath="$PROJECT_DIR$/spring-security-example/spring-security-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-social-app/spring-social-app.iml" filepath="$PROJECT_DIR$/spring-social-app/spring-social-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-spring-boot2-chapter6-mq/src/test/test.iml" filepath="$PROJECT_DIR$/learning-spring-boot2-chapter6-mq/src/test/test.iml" />
+    </modules>
+  </component>
+</project>

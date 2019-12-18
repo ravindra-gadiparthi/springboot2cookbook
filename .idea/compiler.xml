@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/learning-spring-boot2-chater9-gateway/src/main/java/org/cloudcafe/spring/boot2/social/app/security/SecurityConfig.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="learning-spring-boot2-chapter7-eureka-server" />
+        <module name="learning-spring-boot2-chapter8-comments-chat" />
+        <module name="learning-spring-boot2-chapter9-secured-chatservice" />
+        <module name="learning-spring-boot2-chapter9-secured-images" />
+        <module name="learning-spring-boot2-chater9-gateway" />
+        <module name="spring-security-example" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learning-spring-boot2" target="1.8" />
+      <module name="learning-spring-boot2-chapter2" target="1.8" />
+      <module name="learning-spring-boot2-chapter3" target="1.8" />
+      <module name="learning-spring-boot2-chapter5-devtools" target="1.8" />
+      <module name="learning-spring-boot2-chapter6-mq" target="1.8" />
+      <module name="learning-spring-boot2-chapter6-streams" target="1.8" />
+      <module name="learning-spring-boot2-chapter7-comments" target="1.8" />
+      <module name="learning-spring-boot2-chapter7-eureka-server" target="1.8" />
+      <module name="learning-spring-boot2-chapter7-images" target="1.8" />
+      <module name="learning-spring-boot2-chapter8-chatservice" target="1.8" />
+      <module name="learning-spring-boot2-chapter8-comments-chat" target="1.8" />
+      <module name="learning-spring-boot2-chapter9-secured-chatservice" target="1.8" />
+      <module name="learning-spring-boot2-chapter9-secured-images" target="1.8" />
+      <module name="learning-spring-boot2-chater9-gateway" target="1.8" />
+      <module name="learning-spring-boot2-testing" target="1.8" />
+      <module name="spring-security-example" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="learning-spring-boot2" options="-parameters" />
+      <module name="learning-spring-boot2-chapter2" options="-parameters" />
+      <module name="learning-spring-boot2-chapter3" options="-parameters" />
+      <module name="learning-spring-boot2-chapter5-devtools" options="-parameters" />
+      <module name="learning-spring-boot2-chapter6-mq" options="-parameters" />
+      <module name="learning-spring-boot2-chapter6-streams" options="-parameters" />
+      <module name="learning-spring-boot2-chapter7-comments" options="-parameters" />
+      <module name="learning-spring-boot2-chapter7-eureka-server" options="-parameters" />
+      <module name="learning-spring-boot2-chapter7-images" options="-parameters" />
+      <module name="learning-spring-boot2-chapter8-chatservice" options="-parameters" />
+      <module name="learning-spring-boot2-chapter8-comments-chat" options="-parameters" />
+      <module name="learning-spring-boot2-chapter9-secured-chatservice" options="-parameters" />
+      <module name="learning-spring-boot2-chapter9-secured-images" options="-parameters" />
+      <module name="learning-spring-boot2-chater9-gateway" options="-parameters" />
+      <module name="learning-spring-boot2-testing" options="-parameters" />
+      <module name="spring-security-example" options="-parameters" />
+    </option>
+  </component>
+</project>

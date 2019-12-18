@@ -1,0 +1,27 @@
+
+¨
+|learning-spring-boot2-chapter8-comments-chat/src/main/java/org/cloudcafe/boot2/ms/social/app/comments/CommentController.java,a\b\ab3075544cc9d72eff15c2cfe92813f43962ed83
+e
+5learning-spring-boot2-chapter9-secured-images/pom.xml,5\5\55cc29cc62401b865edf56db0a656c3259650fef
+j
+:learning-spring-boot2-chapter9-secured-chatservice/pom.xml,f\b\fb842433bf55b35395d03274bdcc840e16ebc079
+±
+Älearning-spring-boot2-chapter9-secured-chatservice/src/main/java/org/cloudcafe/boot2/ms/social/app/chat/ChatServicesStreams.java,0\5\05cc5d15b136aa514dd44fd87e28aa28bd7448be
+¨
+|learning-spring-boot2-chapter9-secured-chatservice/src/main/java/org/cloudcafe/boot2/ms/social/app/chat/WebSocketConfig.java,c\8\c8bba0097a2738b9c29f92d8990ab26af913832e
+Ø
+learning-spring-boot2-chapter9-secured-chatservice/src/main/java/org/cloudcafe/boot2/ms/social/app/security/SecurityConfig.java,6\6\66aee27c0e4fb433070aa10f891d39cb57657ad2
+Æ
+~learning-spring-boot2-chapter9-secured-chatservice/src/main/java/org/cloudcafe/boot2/ms/social/app/security/SessionConfig.java,5\2\528751a4c7ecd0a8e9c0c8fc8d5cedcdf302f81c
+≤
+Ålearning-spring-boot2-chapter9-secured-chatservice/src/main/java/org/cloudcafe/boot2/ms/social/app/chat/AuthorizationHandler.java,8\8\882d50f7c1d1f1933c416dfad16549a859d959af
+±
+Älearning-spring-boot2-chapter9-secured-chatservice/src/main/java/org/cloudcafe/boot2/ms/social/app/chat/OutBoundChatService.java,3\c\3c87099a0721139a6dba24e37f9eb23fedf7186c
+Ø
+learning-spring-boot2-chapter9-secured-chatservice/src/main/java/org/cloudcafe/boot2/ms/social/app/chat/InBoundChatService.java,0\8\08b75e54fc113685804dd470fd6fe7ab94e23c07
+®
+xlearning-spring-boot2-chapter9-secured-chatservice/src/main/java/org/cloudcafe/boot2/ms/social/app/chat/ChatService.java,0\9\09e09f2a4234dacfb9d000a0d049895e184a86f6
+ 
+ôlearning-spring-boot2-chapter9-secured-chatservice/src/main/java/org/cloudcafe/boot2/ms/social/app/LearningSpringBoot2Chapter9SecuredChatApplication.java,e\7\e7ca2ec19ef8aabb37eb4038dc83d45fadb80819
+º
+ãlearning-spring-boot2-chater9-gateway/src/main/java/org/cloudcafe/spring/boot2/social/app/LearningSpringBoot2Chater9GatewayApplication.java,2\e\2ed02cb20b698af6b412ec439dbd6d846196bb0e

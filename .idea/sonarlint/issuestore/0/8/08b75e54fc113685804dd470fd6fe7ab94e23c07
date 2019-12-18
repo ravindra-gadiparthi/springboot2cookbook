@@ -1,0 +1,5 @@
+
+T
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ñù¸Ôùÿÿÿÿ
+Bsquid:S1452!"&Remove usage of generic wildcard type.(£Ïşıÿÿÿÿ
+Csquid:S1612",Replace this lambda with a method reference.(°æûÁ

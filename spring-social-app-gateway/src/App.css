@@ -1,0 +1,18 @@
+table {
+  border-collapse: collapse;
+  overflow-x:auto;
+}
+td,tbody,thead {
+  border: 1px solid #999;
+  padding: 1.5rem;
+  text-align: left;
+}
+.thumbnail {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}

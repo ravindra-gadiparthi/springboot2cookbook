@@ -1,0 +1,8 @@
+{
+  "timestamp": "2019-12-10T10:52:57.896+0000",
+  "path": "/api/images",
+  "status": 415,
+  "error": "Unsupported Media Type",
+  "message": "Content type '*/*;charset=UTF-8' not supported",
+  "requestId": "a6667b7e"
+}

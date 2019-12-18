@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: chat
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: learning-spring-boot-chat
+          group: comments-chat
+          content-type: application/json
+        clientToBroker:
+          destination: learning-spring-boot-chat-user-messages
+          group: app-chatMessages
+        brokerToClient:
+          destination: learning-spring-boot-chat-user-messages
+          group: topic-chatMessages
+
+
+
+
+server:
+  port: 8300
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  trace:
+    http:
+      include: "*"
+      enabled: true
+  endpoint:
+    httptrace:
+      enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    org.springframework.cloud.stream: debug
+    #org.springframework.cloud.gateway: trace
+
