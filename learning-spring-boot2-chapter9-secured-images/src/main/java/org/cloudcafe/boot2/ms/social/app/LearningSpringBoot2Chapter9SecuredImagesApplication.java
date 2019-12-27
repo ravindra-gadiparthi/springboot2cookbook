@@ -10,6 +10,10 @@ import org.springframework.cloud.stream.messaging.Processor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.mongodb.core.MongoOperations;
 
+import java.io.File;
+
+import static org.cloudcafe.boot2.ms.social.app.images.ImageService.UPLOAD_ROOT;
+
 @SpringCloudApplication
 @EnableBinding({Processor.class})
 public class LearningSpringBoot2Chapter9SecuredImagesApplication {
@@ -21,12 +25,17 @@ public class LearningSpringBoot2Chapter9SecuredImagesApplication {
     @Bean
     CommandLineRunner loadData(MongoOperations operations) {
         return (args) -> {
+
+            File file = new File(UPLOAD_ROOT);
+            if (!file.exists()) {
+                file.mkdir();
+            }
             operations.dropCollection(Comment.class);
             operations.dropCollection(Image.class);
             operations.insert(new Image("1",
-                    "pic1.jpg","phil"));
+                    "pic1.jpg", "phil"));
             operations.insert(new Image("2",
-                    "pic4.jpg","webb"));
+                    "pic4.jpg", "webb"));
 
             System.out.println(operations.findAll(Image.class));
         };
