@@ -20,7 +20,7 @@ import java.util.UUID;
 @AllArgsConstructor
 public class ImageService {
 
-    private static String UPLOAD_ROOT = "UPLOAD_DIR";
+    public static String UPLOAD_ROOT = "UPLOAD_DIR";
 
     private ResourceLoader resourceLoader;
 
