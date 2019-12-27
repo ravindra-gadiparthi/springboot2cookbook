@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.cloudcafe.boot2.ms.social.app.images.ImageCommentService;
 import org.cloudcafe.boot2.ms.social.app.images.ImageService;
+import org.cloudcafe.boot2.ms.social.app.util.UserContextHolder;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -32,14 +33,14 @@ public class HomeController {
 
     @GetMapping("/")
     public Flux<?> findAllImages() {
-
+        log.info("user context in controller {} ", UserContextHolder.getContext().getUser());
         return imageService.findAllImages()
                 .flatMap(image -> commentService.getCommentsByImageId(image.getId()).collectList()
                         .map(comments -> new HashMap<String, Object>() {
                             {
                                 put("id", image.getId());
                                 put("name", image.getName());
-                                put("owner",image.getOwner());
+                                put("owner", image.getOwner());
                                 put("comments", comments);
                             }
                         })
@@ -66,7 +67,7 @@ public class HomeController {
 
     @PostMapping(value = API_BASE_PATH)
     public Mono<Void> createFile(@RequestPart(name = "file") Flux<FilePart> files, @AuthenticationPrincipal Principal principal) {
-        return imageService.createImage(files,principal)
+        return imageService.createImage(files, principal)
                 .then(Mono.empty());
     }
 

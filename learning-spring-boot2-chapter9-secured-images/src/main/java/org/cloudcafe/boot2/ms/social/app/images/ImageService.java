@@ -42,7 +42,7 @@ public class ImageService {
         return filePartFlux
                 .flatMap(filePart -> {
                     Mono<Image> saveImageToDB = imageRepository
-                            .save(new Image(UUID.randomUUID().toString(), filePart.filename(),principal.getName()))
+                            .save(new Image(UUID.randomUUID().toString(), filePart.filename(), principal.getName()))
                             .log("file-saved-db");
                     Mono<Void> saveFileToDisk = filePart.transferTo(Paths.get(UPLOAD_ROOT, filePart.filename()))
                             .log("file-saved-disk");
